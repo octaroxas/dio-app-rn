@@ -3,6 +3,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Home from './src/pages/Home/Home'
 import Curriculo from './src/pages/Curriculo/Curriculo';
+import Movies from './src/pages/Movies/Movies';
 
 
 export default function App() {
@@ -10,7 +11,7 @@ export default function App() {
     // <View style={styles.container}>
     //   {/* <StatusBar style="auto" /> */}
     // </View>
-      <Curriculo/>
+      <Movies/>
   );
 }
 

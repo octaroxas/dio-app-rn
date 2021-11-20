@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { Text, View, TouchableOpacity, SafeAreaView} from "react-native";
-import { styles } from "./styles/styles";
+import { styles } from "./styles";
 
 export default function Home() {
 
