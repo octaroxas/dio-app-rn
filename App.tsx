@@ -1,7 +1,8 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Home from './pages/Home/Home'
+import Home from './src/pages/Home/Home'
+import Curriculo from './src/pages/Curriculo/Curriculo';
 
 
 export default function App() {
@@ -9,7 +10,7 @@ export default function App() {
     // <View style={styles.container}>
     //   {/* <StatusBar style="auto" /> */}
     // </View>
-      <Home/>
+      <Curriculo/>
   );
 }
 

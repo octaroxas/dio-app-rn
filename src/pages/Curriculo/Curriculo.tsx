@@ -4,7 +4,7 @@ import { styles } from "./styles";
 
 export default function Curriculo() {
     return (
-        <SafeAreaView>
+        <SafeAreaView style={styles.container}>
             <Text>Curriculo</Text>
         </SafeAreaView>
     )
