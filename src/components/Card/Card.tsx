@@ -1,9 +1,8 @@
 import React from "react";
 import {Text, View, SafeAreaView } from "react-native";
 import { styles } from './style'
-import { Feather } from '@expo/vector-icons'
 
-export default function Card({header,...rest}) {
+export default function Card({header,children}: any) {
     return (
         
             <View style={styles.card}>
@@ -14,7 +13,7 @@ export default function Card({header,...rest}) {
                 </View>
                 <View>
                     <Text style={styles.cardContent}>
-                        {rest.children}
+                        {children}
                     </Text>
                 </View>
             </View>
